@@ -41,7 +41,7 @@ var router  = express.Router();
 router.get('/', function(req, res) {                                                                                                     
     res.render('index', { title: 'Home' });                                                                                             
 });                                                                                                                                     
-#Opens the index.pug in localhost:/.
+#Opens the index.pug in localhost:/
 
 router.post('/about', function(req, res){                                                                                          res.render('about', { title: 'About' });                                                                                                             
 });                                                                                                                                      
