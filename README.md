@@ -10,7 +10,7 @@ watch the index.pug and see the path of css and js files.
 
 
 
-3. Go to routes folder. Don't change the link for index.
+3. Go to routes folder. Don't change the link for index.   GO TO INDEX.JS
 Same as here. add::
 
 router.get('/pagename', function(req, res){
@@ -23,3 +23,7 @@ for each page created
 
 This creates a new page in link localhost:/pagename
 
+4. Check the href in the pages. The logo image isnot clickable yet. That will redirect to other page.
+
+
+No need for changes in app.js as we are adding all the page hrfs in index.js in Routes.
