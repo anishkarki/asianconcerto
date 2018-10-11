@@ -27,3 +27,28 @@ This creates a new page in link localhost:/pagename
 
 
 No need for changes in app.js as we are adding all the page hrfs in index.js in Routes.
+
+
+
+Ma beluka baki milauxu.
+
+sample index.js:
+
+
+var express = require('express');
+var router  = express.Router();
+
+router.get('/', function(req, res) {                                                                                                     
+    res.render('index', { title: 'Home' });                                                                                             
+});                                                                                                                                     
+Opens the index.pug in localhost:/.
+
+router.post('/about', function(req, res){                                                                                          res.render('about', { title: 'About' });                                                                                                             
+});
+opens about.pug in localhost/about
+
+
+module.exports = router;
+
+
+https://stackoverflow.com/questions/24458208/nodejs-expressjs-what-is-routes-index-js-and-its-purpose
