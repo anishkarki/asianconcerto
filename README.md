@@ -52,3 +52,7 @@ module.exports = router;
 
 Check the link:
 https://stackoverflow.com/questions/24458208/nodejs-expressjs-what-is-routes-index-js-and-its-purpose
+
+
+
+arru kaie vayo vaney chat on skype anish.karki.
