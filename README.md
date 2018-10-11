@@ -56,3 +56,7 @@ https://stackoverflow.com/questions/24458208/nodejs-expressjs-what-is-routes-ind
 
 
 arru kaie vayo vaney chat on skype anish.karki.
+
+https://expressjs.com/en/starter/generator.html look here
+myapp is the name of project:
+DEBUG=myapp:* npm start
